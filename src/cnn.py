@@ -10,9 +10,9 @@ from sklearn.metrics import roc_auc_score
 
 from utils import img_dims
 
-batch_size = 16
+batch_size = 64
 num_epochs = 15
-lr = 0.1
+lr = 0.0001
 lr_decay = 0.005
 
 class CNN(object):
